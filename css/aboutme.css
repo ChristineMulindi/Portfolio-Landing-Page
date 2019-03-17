@@ -2,6 +2,8 @@ body {
   background-color: lightpink;
   text-align: center;
   font-family: sans-serif;
+  font-size: 18px;
+
 }
 
 .column {
@@ -55,4 +57,16 @@ img {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+@media screen and (min-width: 480px) and (max-width: 1260px) {
+    body {
+        background-color: lightpink;
+        color: black;
+    }
+    .column {
+    width: 470px;
+    float: inherit;
+    text-align: center;
+    padding: 15px;
+  }
 }
