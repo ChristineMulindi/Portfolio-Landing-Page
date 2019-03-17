@@ -52,3 +52,10 @@ body {
   opacity: 1;
   right: 0;
 }
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightpink;
+        color: black;
+    }
+}
