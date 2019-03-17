@@ -54,8 +54,8 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-    body {
-        background-color: lightpink;
-        color: black;
-    }
+  body {
+    background-color: lightpink;
+    color: black;
+  }
 }
