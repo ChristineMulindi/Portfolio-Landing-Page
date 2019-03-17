@@ -3,14 +3,12 @@ body {
   text-align: center;
   font-family: sans-serif;
   font-size: 18px;
-
 }
 
 .column {
   width: 1250px;
   float: inherit;
 }
-
 
 /* Image */
 img {
@@ -58,12 +56,14 @@ img {
   opacity: 1;
   right: 0;
 }
+
 @media screen and (min-width: 480px) and (max-width: 1260px) {
-    body {
-        background-color: lightpink;
-        color: black;
-    }
-    .column {
+  body {
+    background-color: lightpink;
+    color: black;
+  }
+
+  .column {
     width: 470px;
     float: inherit;
     text-align: center;
